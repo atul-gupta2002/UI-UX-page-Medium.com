@@ -1,0 +1,151 @@
+ * {
+    background-color: whitesmoke;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ #med{
+    margin-left: 200px;
+    font-size: 20px;
+ }
+ .navbar {
+    background-color:whitesmoke;
+    padding:  15px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.but {
+    background-color: #081408;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 10px;
+   
+   
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 100px;
+    font-size:13px
+}
+
+.container but{
+    margin-right: 100px;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    margin-left: 230px;
+    margin-top: 170px;
+    height: 465px;  /* Ensure it takes full viewport height */
+    font-size: 50px;
+}
+
+.background h1 {
+    font-size: 100px;
+    font-weight: normal;
+    margin-bottom: 1px; /* Reduce the space between "Human" and "stories & ideas" */
+}
+.background h1:nth-child(2) {
+    font-size: 100px;
+    font-weight: normal;
+    margin-top: -20px; /* Negative margin to move it upwards */
+}
+
+
+
+
+.background p {
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: normal;
+  
+   
+}
+
+.start {
+    background-color: #081408;
+    color: #fff;
+    border: none;
+    width:170px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+  
+    justify-content: center;
+   
+}
+
+.image img{
+    height: 480px;
+    width: 370px;
+    float:right;
+    margin-top: 90px;
+    
+}
+
+.footer {
+    background-color: #f5f5f5; 
+    padding: 10px 5px; 
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.footer ul li {
+    margin: 8px 10px; 
+    font-size: 12px;
+}
+
+.footer ul li:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
+}
